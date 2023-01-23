@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 23 09:33:23 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>81 seconds (81100 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='smartBearApplicationTestCase.SB_Sports_004.Showbutton()'><b>Showbutton</b><br>Test class: smartBearApplicationTestCase.SB_Sports_004<br/>
+<a href="#Output-693345846" onClick='toggleBox("Output-693345846", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-693345846" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-693345846">
+user clicked on Sport DropDown<br/>
+user clicked on BasketBall Button<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>smartBearApplicationTestCase.SB_Sports_004@26aa12dd</td></tr>
+<tr>
+<td title='smartBearApplicationTestCase.SB_Sports_010.aboutUsButton()'><b>aboutUsButton</b><br>Test class: smartBearApplicationTestCase.SB_Sports_010<br/>
+<a href="#Output-2023026843" onClick='toggleBox("Output-2023026843", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2023026843" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2023026843">
+about Us Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>smartBearApplicationTestCase.SB_Sports_010@694e1548</td></tr>
+<tr>
+<td title='smartBearApplicationTestCase.SB_Sports_007.addToCart()'><b>addToCart</b><br>Test class: smartBearApplicationTestCase.SB_Sports_007<br/>
+<a href="#Output-7829163" onClick='toggleBox("Output-7829163", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7829163" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7829163">
+Product Successfully Added To Cart<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>smartBearApplicationTestCase.SB_Sports_007@76707e36</td></tr>
+<tr>
+<td title='smartBearApplicationTestCase.SB_Sports_005.golfButton()'><b>golfButton</b><br>Test class: smartBearApplicationTestCase.SB_Sports_005<br/>
+<a href="#Output-1609086753" onClick='toggleBox("Output-1609086753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1609086753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1609086753">
+user click on Price Drop Down<br/>
+user click on Add To list<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>smartBearApplicationTestCase.SB_Sports_005@131276c2</td></tr>
+<tr>
+<td title='smartBearApplicationTestCase.SB_Sports_008.removeButton()'><b>removeButton</b><br>Test class: smartBearApplicationTestCase.SB_Sports_008<br/>
+<a href="#Output-1508181426" onClick='toggleBox("Output-1508181426", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1508181426" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1508181426">
+Product is Removed From Cart<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>smartBearApplicationTestCase.SB_Sports_008@1e6d1014</td></tr>
+<tr>
+<td title='smartBearApplicationTestCase.SB_Sports_009.shippingButton()'><b>shippingButton</b><br>Test class: smartBearApplicationTestCase.SB_Sports_009<br/>
+<a href="#Output-2068897588" onClick='toggleBox("Output-2068897588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2068897588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2068897588">
+Product Shipping<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>smartBearApplicationTestCase.SB_Sports_009@4f063c0a</td></tr>
+<tr>
+<td title='smartBearApplicationTestCase.SB_Sports_006.soccerButton()'><b>soccerButton</b><br>Test class: smartBearApplicationTestCase.SB_Sports_006</td>
+<td></td>
+<td>4</td>
+<td>smartBearApplicationTestCase.SB_Sports_006@1c3a4799</td></tr>
+<tr>
+<td title='smartBearApplicationTestCase.SB_Sports_003.sortbyrelevancedropdown()'><b>sortbyrelevancedropdown</b><br>Test class: smartBearApplicationTestCase.SB_Sports_003<br/>
+<a href="#Output-305552520" onClick='toggleBox("Output-305552520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-305552520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-305552520">
+user clicked on Sport DropDown<br/>
+user clicked on BasketBall Button<br/>
+user clicked on Sort By DropDown<br/>
+user clicked on Sort By Name:A to Z<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>smartBearApplicationTestCase.SB_Sports_003@3fd7a715</td></tr>
+<tr>
+<td title='smartBearApplicationTestCase.SB_Sports_002.sportsCategory()'><b>sportsCategory</b><br>Test class: smartBearApplicationTestCase.SB_Sports_002<br/>
+<a href="#Output-1631227617" onClick='toggleBox("Output-1631227617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1631227617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1631227617">
+Price<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>smartBearApplicationTestCase.SB_Sports_002@614ddd49</td></tr>
+<tr>
+<td title='smartBearApplicationTestCase.SB_Sports_001.sportsCategory()'><b>sportsCategory</b><br>Test class: smartBearApplicationTestCase.SB_Sports_001</td>
+<td></td>
+<td>0</td>
+<td>smartBearApplicationTestCase.SB_Sports_001@1f554b06</td></tr>
+</table><p>
+</body>
+</html>

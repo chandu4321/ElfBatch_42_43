@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[The empty browser is Lanuched]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is Maximized]]>
+    </line>
+    <line>
+      <![CDATA[User Navigted to HomePage Suceesfully]]>
+    </line>
+    <line>
+      <![CDATA[Shop]]>
+    </line>
+    <line>
+      <![CDATA[User Login Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on Sport DropDown]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on BasketBall Button]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on Sort By DropDown]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on Sort By Name:A to Z]]>
+    </line>
+    <line>
+      <![CDATA[User Logout Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Server Closed Sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16892" started-at="2023-01-23T09:52:09 IST" finished-at="2023-01-23T09:52:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16892" started-at="2023-01-23T09:52:09 IST" finished-at="2023-01-23T09:52:26 IST">
+      <class name="smartBearApplicationTestCase.SB_Sports_003">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:smartBearApplicationTestCase.SB_Sports_003@6c49835d]" name="browserSetUp" is-config="true" duration-ms="6026" started-at="2023-01-23T09:52:09 IST" finished-at="2023-01-23T09:52:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The empty browser is Lanuched]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is Maximized]]>
+            </line>
+            <line>
+              <![CDATA[User Navigted to HomePage Suceesfully]]>
+            </line>
+            <line>
+              <![CDATA[Shop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="LoginUser()[pri:0, instance:smartBearApplicationTestCase.SB_Sports_003@6c49835d]" name="LoginUser" is-config="true" duration-ms="3588" started-at="2023-01-23T09:52:15 IST" finished-at="2023-01-23T09:52:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User Login Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method status="PASS" signature="sortbyrelevancedropdown()[pri:0, instance:smartBearApplicationTestCase.SB_Sports_003@6c49835d]" name="sortbyrelevancedropdown" duration-ms="4729" started-at="2023-01-23T09:52:18 IST" finished-at="2023-01-23T09:52:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[user clicked on Sport DropDown]]>
+            </line>
+            <line>
+              <![CDATA[user clicked on BasketBall Button]]>
+            </line>
+            <line>
+              <![CDATA[user clicked on Sort By DropDown]]>
+            </line>
+            <line>
+              <![CDATA[user clicked on Sort By Name:A to Z]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortbyrelevancedropdown -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:smartBearApplicationTestCase.SB_Sports_003@6c49835d]" name="LogOut" is-config="true" duration-ms="1674" started-at="2023-01-23T09:52:23 IST" finished-at="2023-01-23T09:52:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User Logout Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:smartBearApplicationTestCase.SB_Sports_003@6c49835d]" name="quitBrowser" is-config="true" duration-ms="802" started-at="2023-01-23T09:52:25 IST" finished-at="2023-01-23T09:52:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Server Closed Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- smartBearApplicationTestCase.SB_Sports_003 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
